@@ -8,7 +8,7 @@
 ### 克隆代码
 
     git clone https://github.com/WildDogTeam/sync-quickstart-ios.git
-    cd demo-ios-commentwall
+    cd sync-quickstart-ios
     pod install
 
 ### 注册 Wilddog
