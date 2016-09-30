@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "Wilddog.h"
 
-static NSString *wilddogUrl = @"https://wild-weather.wilddogio.com/";
+static NSString *wilddogUrl = @"https://wild-commentwall.wilddogio.com/";
 
 @interface AppDelegate ()
 

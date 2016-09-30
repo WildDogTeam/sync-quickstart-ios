@@ -62,7 +62,7 @@ static NSString *placeholderContent = @"评论内容 ...";
     
     
     // 获取 WDGSyncReference 实例
-    self.ref = [[WDGSync sync] referenceWithPath:@"messageboard"];
+    self.ref = [[WDGSync sync] reference];
     
     self.newMessagesOnTop = YES;
     

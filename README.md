@@ -1,9 +1,8 @@
-# sync-quickstart-ios 
+# Wilddog Sync 快速入门 Demo 
 
-这个 APP 展示了如何使用 [Wilddog Sync SDK] 来创建一个共享的评论墙 Demo，  
-多个用户或者多端用户（iOS、android、web 等）都可以运行该应用程序，同时使用一个丰富的评论墙。
-如果你有情怀自己优化应用，创建自己的 Wilddog App，并把这些技术引入到自己的应用程序！
+此 Demo 实现了一个常见的评论墙的功能。效果如下：
 
+![](commentwall.png)
 
 ### 克隆代码
 
@@ -11,9 +10,13 @@
     cd sync-quickstart-ios
     pod install
 
-### 注册 Wilddog
+### 替换成你的应用
 
-CommentWall 需要 Wilddog 来同步和存储数据。您可以在这里[注册](https://www.wilddog.com/my-account/signup)一个免费帐户。
+此 Demo 使用的是野狗提供的示例应用，你可以在 AppDelegate.m 文件中将 wilddogUrl 字符串中的示例应用替换成自己的应用。
+
+替换成你自己的应用之后，可以在 [`控制面板-数据预览`](https://docs.wilddog.com/console/administer.html#数据预览) 中实时看到数据变化：
+
+![](wilddogdata.png)
 
 
 ### 更多示例
